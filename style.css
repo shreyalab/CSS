@@ -1,3 +1,7 @@
+*{
+    color: blue;
+}
+
 h1 {
     color: red; 
 }
@@ -16,5 +20,19 @@ button {
 
 body{
 
-    background-color: #f5c542;
+    background-color: lightgray;
+}
+
+#main-heading {
+    color: purple;
+}
+
+#box{
+    background-color: blue;
+    color : white;
+    text-align: start;;
+}
+
+.Heading{
+    color:red
 }
