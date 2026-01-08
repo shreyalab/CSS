@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width : 300px;
+    background-color: lightblue;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: pink;
+
+}
+h1{
+    border: 5px double green;
+    background-color:bisque;
+    border-radius: 10px;
+}
