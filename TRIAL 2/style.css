@@ -25,10 +25,21 @@ a{
 .contentbox{
     height:100px;
     width:100px;
+    border:2px solid black;
+    display: inline-block;
+    color:black;
 }
 
+#content{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height:380px;
+
+}
 footer{
     background-color: black;
     height: 50px;
+    text-align: center;
     
 }
