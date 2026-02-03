@@ -7,6 +7,8 @@
 #navbar{
     background-color: black;
     height: 60px;
+    display:flex;
+    justify-content: space-between;
 
 }
 
@@ -20,7 +22,7 @@ button{
 a{
     text-decoration: none;
     color: white;
-    margin-right: 150px;
+    /*margin-right: 150px;*/
 }
 .contentbox{
     height:100px;
@@ -28,6 +30,8 @@ a{
     border:2px solid black;
     display: inline-block;
     color:black;
+    /*background-image: url("dog.jpg");*/
+    /*background-size: cover;*/
 }
 
 #content{
