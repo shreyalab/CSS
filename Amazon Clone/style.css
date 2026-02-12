@@ -254,8 +254,21 @@ span{
     margin-bottom: 10px;
 }
 
-.box content{
-    width; 100%;
+.box-content{
+    width: 90%;
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.child-box{
+    width: 45%;
+    height: 45%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.subbox{
+    display: flex;
+    flex-direction: row;
+}
+
+
