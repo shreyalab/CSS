@@ -235,15 +235,15 @@ span{
 }
 
 .box{
-    height: 100px;
+    
     border:2px solid #0f1111;
     display:flex;
     flex-direction: column;
     width:23%;
     height: 350px;
     background-color: #ffffff;
-    padding: 20px 0px 15px;
-    margin-top: 5px;
+    padding: 20px 0px 20px;
+    margin-top: 15px;
 }
 
 .box-image{
@@ -256,11 +256,17 @@ span{
 
 .box-content{
     width: 90%;
-    margin-left: 10px;
-    margin-right: 10px;
+     margin-left: 14px;
+    /*margin-right: 10px; */
 }
 
-.child-box{
+.box-content p{
+    color: #007185;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*.child-box{
     width: 45%;
     height: 45%;
     margin-left: 10px;
@@ -269,6 +275,47 @@ span{
 .subbox{
     display: flex;
     flex-direction: row;
+}*/
+
+/*box 2*/
+.brand-container{
+    /* height: 120px; */
+    /* width: 120px; */
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-right: 2px;
+    margin-left: -11px;
+    
+}
+
+
+
+
+.brand-grid{
+    display: flex;
+    flex-direction:column;
+    padding-right: 2px;
+    padding-left: 2px;
+    height: 80%;
+    width: 40%;
+    
+    
+}
+
+.brand-item {
+    /* width: 100px; */
+    width: 100%;
+    height: 140px;
+    background-position: center;
+   
+}
+
+
+.brand-grid p {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 
