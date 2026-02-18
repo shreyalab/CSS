@@ -194,7 +194,7 @@ span{
 
 /*main*/
 .special{
-    background-image:url(image1.jpg);
+    background-image:url(111.jpg);
     background-size: cover;
     height: 350px;
     display: flex;
@@ -229,6 +229,7 @@ span{
 /*shopping cart*/
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: rgba(255, 192, 203, 0.37);
     
@@ -256,8 +257,8 @@ span{
 
 .box-content{
     width: 90%;
-     margin-left: 14px;
-    /*margin-right: 10px; */
+    margin-left: 20px;
+    margin-right: 20px; 
 }
 
 .box-content p{
@@ -266,17 +267,6 @@ span{
     font-size: 14px;
 }
 
-/*.child-box{
-    width: 45%;
-    height: 45%;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.subbox{
-    display: flex;
-    flex-direction: row;
-}*/
-
 /*box 2*/
 .brand-container{
     /* height: 120px; */
@@ -284,13 +274,12 @@ span{
     display:flex;
     justify-content: space-evenly;
     flex-direction: row;
-    margin-right: 2px;
-    margin-left: -11px;
-    
+    margin-right: -20px;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
-
-
-
 
 .brand-grid{
     display: flex;
@@ -317,5 +306,6 @@ span{
     font-size: 14px;
     font-weight: 500;
 }
+
 
 
