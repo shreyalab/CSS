@@ -10,7 +10,7 @@ and **CSS3** to practice front-end development fundamentals.
 
 ## 📸 Preview
 
-![Project Screenshot](./images/Screenshot.jpg)
+![Project Screenshot](./Amazon%20Clone/images/Screenshot.jpg)
 
 ------------------------------------------------------------------------
 
